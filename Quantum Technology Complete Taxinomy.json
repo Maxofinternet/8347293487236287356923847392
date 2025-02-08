@@ -1,0 +1,1725 @@
+{
+  "QST": {
+    "id": "1",
+    "name": "Quantum Science & Technology",
+    "description": "The comprehensive field encompassing all aspects of quantum physics applications and technologies.",
+      "CT": {
+        "id": "1.2",
+        "name": "Cross-cutting Technologies",
+        "description": "Technologies and methods that apply across multiple quantum domains.",
+        
+        "CS": {
+          "id": "1.2.1",
+          "name": "Control Systems",
+          "description": "Systems for controlling quantum devices and experiments.",
+          
+          "HC": {
+            "id": "1.2.1.1",
+            "name": "Hardware Control",
+            "description": "Physical systems for controlling quantum devices.",
+            
+            "EC": {
+              "id": "1.2.1.1.1",
+              "name": "Electronic Control",
+              "description": "Electronic systems for controlling quantum devices.",
+              
+              "SG": {
+                "id": "1.2.1.1.1.1",
+                "name": "Signal Generation",
+                "description": "Systems for generating precise control signals for quantum devices."
+              },
+              "SP": {
+                "id": "1.2.1.1.1.2",
+                "name": "Signal Processing",
+                "description": "Systems for processing and analyzing measurement signals."
+              },
+              "FB": {
+                "id": "1.2.1.1.1.3",
+                "name": "Feedback Systems",
+                "description": "Real-time control systems based on measurement results."
+              }
+            },
+            "OC": {
+              "id": "1.2.1.1.2",
+              "name": "Optical Control",
+              "description": "Optical systems for controlling quantum devices.",
+              
+              "LS": {
+                "id": "1.2.1.1.2.1",
+                "name": "Laser Systems",
+                "description": "Laser-based control and manipulation systems."
+              },
+              "OPT": {
+                "id": "1.2.1.1.2.2",
+                "name": "Optical Control",
+                "description": "Systems for precise control of optical properties and paths."
+              },
+              "PD": {
+                "id": "1.2.1.1.2.3",
+                "name": "Photon Detection",
+                "description": "Systems for detecting and counting individual photons."
+              }
+            },
+            "MC": {
+              "id": "1.2.1.1.3",
+              "name": "Magnetic Control",
+              "description": "Magnetic systems for controlling quantum devices.",
+              
+              "FG": {
+                "id": "1.2.1.1.3.1",
+                "name": "Field Generation",
+                "description": "Systems for generating precise magnetic fields."
+              },
+              "FC": {
+                "id": "1.2.1.1.3.2",
+                "name": "Field Control",
+                "description": "Systems for dynamically controlling magnetic field properties."
+              },
+              "SH": {
+                "id": "1.2.1.1.3.3",
+                "name": "Shielding",
+                "description": "Systems for protecting against unwanted magnetic fields."
+              }
+            }
+          },
+          
+          "SC": {
+            "id": "1.2.1.2",
+            "name": "Software Control",
+            "description": "Software systems for controlling quantum devices.",
+            
+            "RTC": {
+              "id": "1.2.1.2.1",
+              "name": "Real-time Control",
+              "description": "Software for real-time control of quantum systems.",
+              
+              "SYC": {
+                "id": "1.2.1.2.1.1",
+                "name": "System Control",
+                "description": "Software for overall system control and coordination."
+              },
+              "FBC": {
+                "id": "1.2.1.2.1.2",
+                "name": "Feedback Control",
+                "description": "Software for implementing real-time feedback control."
+              },
+              "CAL": {
+                "id": "1.2.1.2.1.3",
+                "name": "Calibration",
+                "description": "Software for system calibration and optimization."
+              }
+            },
+            "CMP": {
+              "id": "1.2.1.2.2",
+              "name": "Compilation",
+              "description": "Software for converting high-level descriptions to control sequences.",
+              
+              "CO": {
+                "id": "1.2.1.2.2.1",
+                "name": "Circuit Optimization",
+                "description": "Software for optimizing quantum circuits."
+              },
+              "EM": {
+                "id": "1.2.1.2.2.2",
+                "name": "Error Mitigation",
+                "description": "Software for implementing error mitigation strategies."
+              },
+              "RM": {
+                "id": "1.2.1.2.2.3",
+                "name": "Resource Management",
+                "description": "Software for managing quantum computing resources."
+              }
+            }
+          },
+          
+          "QC": {
+            "id": "1.2.1.3",
+            "name": "Quantum Control",
+            "description": "Quantum-specific control methods and techniques.",
+            
+            "CC": {
+              "id": "1.2.1.3.1",
+              "name": "Coherent Control",
+              "description": "Methods for maintaining quantum coherence during operations."
+            },
+            "SE": {
+              "id": "1.2.1.3.2",
+              "name": "State Engineering",
+              "description": "Techniques for creating and maintaining specific quantum states."
+            },
+            "FC": {
+              "id": "1.2.1.3.3",
+              "name": "Feedback Control",
+              "description": "Quantum feedback control methods and protocols."
+            }
+          }
+        }
+      },
+  "QC": {
+    "id": "1.3",
+    "name": "Quantum Computing",
+    "description": "Systems and methods for performing computation using quantum mechanical phenomena.",
+    
+    "HW": {
+      "id": "1.3.1",
+      "name": "Hardware",
+      "description": "Physical implementations of quantum computing systems.",
+      
+      "AT": {
+        "id": "1.3.1.1",
+        "name": "Architecture Types",
+        "description": "Different approaches to building quantum computers.",
+        
+        "NISQ": {
+          "id": "1.3.1.1.1",
+          "name": "NISQ Systems",
+          "description": "Near-term intermediate-scale quantum systems without error correction.",
+          
+          "50Q": {
+            "id": "1.3.1.1.1.1",
+            "name": "50-100 Qubit Systems",
+            "description": "Current generation quantum computers with limited qubit counts."
+          },
+          "EMS": {
+            "id": "1.3.1.1.1.2",
+            "name": "Error Mitigation Systems",
+            "description": "Systems incorporating error mitigation strategies."
+          },
+          "NTA": {
+            "id": "1.3.1.1.1.3",
+            "name": "Near-term Applications",
+            "description": "Applications suitable for NISQ-era quantum computers."
+          }
+        },
+        
+        "FTS": {
+          "id": "1.3.1.1.2",
+          "name": "FTQC Systems",
+          "description": "Fault-tolerant quantum computing systems.",
+          
+          "ECA": {
+            "id": "1.3.1.1.2.1",
+            "name": "Error-Corrected Architecture",
+            "description": "Architectures incorporating full quantum error correction."
+          },
+          "SCS": {
+            "id": "1.3.1.1.2.2",
+            "name": "Scalable Systems",
+            "description": "Systems designed for scaling to large numbers of qubits."
+          },
+          "UQC": {
+            "id": "1.3.1.1.2.3",
+            "name": "Universal Computing",
+            "description": "Systems capable of implementing any quantum algorithm."
+          }
+        }
+      },
+      
+      "PI": {
+        "id": "1.3.1.2",
+        "name": "Physical Implementations",
+        "description": "Different physical systems used to realize quantum computing.",
+        
+        "AS": {
+          "id": "1.3.1.2.1",
+          "name": "Atomic Systems",
+          "description": "Quantum computing implementations using atomic systems.",
+          
+          "TI": {
+            "id": "1.3.1.2.1.1",
+            "name": "Trapped Ions",
+            "description": "Quantum computing using individually trapped and controlled ions.",
+            
+            "II": {
+              "id": "1.3.1.2.1.1.1",
+              "name": "Individual Ions",
+              "description": "Single-ion qubit implementations."
+            },
+            "IC": {
+              "id": "1.3.1.2.1.1.2",
+              "name": "Ion Chains",
+              "description": "Linear chains of interacting ions."
+            },
+            "IA": {
+              "id": "1.3.1.2.1.1.3",
+              "name": "Ion Arrays",
+              "description": "Two-dimensional arrays of trapped ions."
+            }
+          },
+          
+          "NA": {
+            "id": "1.3.1.2.1.2",
+            "name": "Neutral Atoms",
+            "description": "Quantum computing using neutral atoms.",
+            
+            "OL": {
+              "id": "1.3.1.2.1.2.1",
+              "name": "Optical Lattices",
+              "description": "Atoms trapped in optical lattice potentials."
+            },
+            "TA": {
+              "id": "1.3.1.2.1.2.2",
+              "name": "Tweezer Arrays",
+              "description": "Atoms trapped in arrays of optical tweezers."
+            },
+            "RA": {
+              "id": "1.3.1.2.1.2.3",
+              "name": "Rydberg Arrays",
+              "description": "Arrays of Rydberg atoms for quantum computing."
+            }
+          }
+        },
+        
+        "SS": {
+          "id": "1.3.1.2.2",
+          "name": "Solid State",
+          "description": "Quantum computing implementations in solid-state systems.",
+          
+          "SC": {
+            "id": "1.3.1.2.2.1",
+            "name": "Superconducting",
+            "description": "Quantum computing using superconducting circuits.",
+            
+            "FF": {
+              "id": "1.3.1.2.2.1.1",
+              "name": "Fixed-frequency",
+              "description": "Qubits with fixed transition frequencies."
+            },
+            "TF": {
+              "id": "1.3.1.2.2.1.2",
+              "name": "Tunable",
+              "description": "Qubits with adjustable transition frequencies."
+            },
+            "FQ": {
+              "id": "1.3.1.2.2.1.3",
+              "name": "Flux Qubits",
+              "description": "Qubits based on superconducting flux states."
+            }
+          },
+          
+          "QD": {
+            "id": "1.3.1.2.2.2",
+            "name": "Quantum Dots",
+            "description": "Quantum computing using semiconductor quantum dots.",
+            
+            "GD": {
+              "id": "1.3.1.2.2.2.1",
+              "name": "Gate-Defined",
+              "description": "Quantum dots defined by electrostatic gates."
+            },
+            "SA": {
+              "id": "1.3.1.2.2.2.2",
+              "name": "Self-Assembled",
+              "description": "Naturally formed quantum dots."
+            }
+          },
+          
+          "CC": {
+            "id": "1.3.1.2.2.3",
+            "name": "Color Centers",
+            "description": "Quantum computing using crystal defects.",
+            
+            "NV": {
+              "id": "1.3.1.2.2.3.1",
+              "name": "NV Centers",
+              "description": "Nitrogen-vacancy centers in diamond."
+            },
+            "SV": {
+              "id": "1.3.1.2.2.3.2",
+              "name": "SiV Centers",
+              "description": "Silicon-vacancy centers in diamond."
+            }
+          }
+        },
+        
+        "PH": {
+          "id": "1.3.1.2.3",
+          "name": "Photonic",
+          "description": "Quantum computing using photons.",
+          
+          "LO": {
+            "id": "1.3.1.2.3.1",
+            "name": "Linear Optics",
+            "description": "Computing using linear optical elements."
+          },
+          "BS": {
+            "id": "1.3.1.2.3.2",
+            "name": "Boson Sampling",
+            "description": "Specialized photonic quantum computation."
+          },
+          "CV": {
+            "id": "1.3.1.2.3.3",
+            "name": "Continuous Variables",
+            "description": "Computing using continuous-variable quantum states."
+          }
+        },
+        
+        "TP": {
+          "id": "1.3.1.2.4",
+          "name": "Topological",
+          "description": "Quantum computing using topologically protected states.",
+          
+          "MF": {
+            "id": "1.3.1.2.4.1",
+            "name": "Majorana Fermions",
+            "description": "Computing using Majorana zero modes."
+          },
+          "ANY": {
+            "id": "1.3.1.2.4.2",
+            "name": "Anyons",
+            "description": "Computing using anyonic excitations."
+          }
+        }
+      }
+    },
+  "SW": {
+      "id": "1.3.2",
+      "name": "Software",
+      "description": "Software systems and tools for quantum computing.",
+      
+      "QP": {
+        "id": "1.3.2.1",
+        "name": "Quantum Programming",
+        "description": "Programming languages and tools for quantum computers.",
+        
+        "QL": {
+          "id": "1.3.2.1.1",
+          "name": "Languages",
+          "description": "Programming languages for quantum computation.",
+          
+          "HLL": {
+            "id": "1.3.2.1.1.1",
+            "name": "High-level Languages",
+            "description": "Abstract programming languages for quantum algorithms."
+          },
+          "ASM": {
+            "id": "1.3.2.1.1.2",
+            "name": "Assembly Languages",
+            "description": "Low-level quantum programming languages."
+          },
+          "HDL": {
+            "id": "1.3.2.1.1.3",
+            "name": "Hardware Description Languages",
+            "description": "Languages for describing quantum hardware."
+          }
+        },
+        
+        "CMP": {
+          "id": "1.3.2.1.2",
+          "name": "Compilers",
+          "description": "Tools for translating quantum programs to executable circuits.",
+          
+          "OPT": {
+            "id": "1.3.2.1.2.1",
+            "name": "Optimizers",
+            "description": "Circuit optimization and compilation tools."
+          },
+          "MAP": {
+            "id": "1.3.2.1.2.2",
+            "name": "Mappers",
+            "description": "Tools for mapping logical to physical qubits."
+          },
+          "SCH": {
+            "id": "1.3.2.1.2.3",
+            "name": "Schedulers",
+            "description": "Tools for scheduling quantum operations."
+          }
+        }
+      },
+      
+      "DT": {
+        "id": "1.3.2.2",
+        "name": "Development Tools",
+        "description": "Tools for developing quantum software.",
+        
+        "SIM": {
+          "id": "1.3.2.2.1",
+          "name": "Simulation Tools",
+          "description": "Tools for simulating quantum systems.",
+          
+          "SV": {
+            "id": "1.3.2.2.1.1",
+            "name": "State Vector",
+            "description": "Full quantum state simulators."
+          },
+          "DM": {
+            "id": "1.3.2.2.1.2",
+            "name": "Density Matrix",
+            "description": "Mixed state quantum simulators."
+          },
+          "NM": {
+            "id": "1.3.2.2.1.3",
+            "name": "Noise Models",
+            "description": "Tools for simulating quantum noise and errors."
+          }
+        },
+        
+        "DBG": {
+          "id": "1.3.2.2.2",
+          "name": "Debugging Tools",
+          "description": "Tools for debugging quantum programs.",
+          
+          "VIS": {
+            "id": "1.3.2.2.2.1",
+            "name": "Visualizers",
+            "description": "Tools for visualizing quantum states and operations."
+          },
+          "ANL": {
+            "id": "1.3.2.2.2.2",
+            "name": "Analyzers",
+            "description": "Tools for analyzing quantum program behavior."
+          }
+        },
+        
+        "VER": {
+          "id": "1.3.2.2.3",
+          "name": "Verification Tools",
+          "description": "Tools for verifying quantum programs.",
+          
+          "PV": {
+            "id": "1.3.2.2.3.1",
+            "name": "Program Verification",
+            "description": "Tools for verifying quantum program correctness."
+          },
+          "RT": {
+            "id": "1.3.2.2.3.2",
+            "name": "Runtime Testing",
+            "description": "Tools for testing quantum programs during execution."
+          }
+        }
+      },
+      
+      "QML": {
+        "id": "1.3.2.3",
+        "name": "Quantum Machine Learning",
+        "description": "Machine learning applications of quantum computing.",
+        
+        "QAM": {
+          "id": "1.3.2.3.1",
+          "name": "Quantum-assisted ML",
+          "description": "Classical ML enhanced by quantum subroutines.",
+          
+          "TA": {
+            "id": "1.3.2.3.1.1",
+            "name": "Training Acceleration",
+            "description": "Quantum methods for accelerating ML training."
+          },
+          "FM": {
+            "id": "1.3.2.3.1.2",
+            "name": "Feature Mapping",
+            "description": "Quantum methods for feature space transformation."
+          }
+        },
+        
+        "QEM": {
+          "id": "1.3.2.3.2",
+          "name": "Quantum-enhanced ML",
+          "description": "ML algorithms with quantum enhancements.",
+          
+          "QK": {
+            "id": "1.3.2.3.2.1",
+            "name": "Quantum Kernels",
+            "description": "Kernel methods using quantum computations."
+          },
+          "QFS": {
+            "id": "1.3.2.3.2.2",
+            "name": "Quantum Feature Spaces",
+            "description": "ML in quantum feature spaces."
+          }
+        },
+        
+        "MLQ": {
+          "id": "1.3.2.3.3",
+          "name": "ML-assisted Quantum",
+          "description": "ML methods for improving quantum computation.",
+          
+          "CO": {
+            "id": "1.3.2.3.3.1",
+            "name": "Control Optimization",
+            "description": "ML for optimizing quantum control."
+          },
+          "EM": {
+            "id": "1.3.2.3.3.2",
+            "name": "Error Mitigation",
+            "description": "ML for quantum error mitigation."
+          }
+        },
+        
+        "QIN": {
+          "id": "1.3.2.3.4",
+          "name": "Quantum-intrinsic ML",
+          "description": "Native quantum ML algorithms.",
+          
+          "QNN": {
+            "id": "1.3.2.3.4.1",
+            "name": "Quantum Neural Networks",
+            "description": "Neural networks using quantum operations."
+          },
+          "QSVM": {
+            "id": "1.3.2.3.4.2",
+            "name": "Quantum Support Vector Machines",
+            "description": "Quantum versions of support vector machines."
+          },
+          "QBM": {
+            "id": "1.3.2.3.4.3",
+            "name": "Quantum Boltzmann Machines",
+            "description": "Quantum versions of Boltzmann machines."
+          }
+        }
+      }
+    },
+    
+    "ALG": {
+      "id": "1.3.3",
+      "name": "Algorithms",
+      "description": "Quantum algorithms and computational methods.",
+      
+      "SA": {
+        "id": "1.3.3.1",
+        "name": "Sampling Algorithms",
+        "description": "Algorithms for quantum sampling problems.",
+        
+        "QRS": {
+          "id": "1.3.3.1.1",
+          "name": "Quantum Random Sampling",
+          "description": "Algorithms for generating quantum random samples."
+        },
+        "GS": {
+          "id": "1.3.3.1.2",
+          "name": "Gibbs Sampling",
+          "description": "Quantum algorithms for Gibbs state sampling."
+        },
+        "BS": {
+          "id": "1.3.3.1.3",
+          "name": "Boson Sampling",
+          "description": "Sampling from bosonic quantum systems."
+        }
+      },
+      
+      "OA": {
+        "id": "1.3.3.2",
+        "name": "Optimization Algorithms",
+        "description": "Quantum algorithms for optimization problems.",
+        
+        "QAOA": {
+          "id": "1.3.3.2.1",
+          "name": "Quantum Approximate Optimization",
+          "description": "Variational algorithms for optimization.",
+          
+          "QAO": {
+            "id": "1.3.3.2.1.1",
+            "name": "QAOA",
+            "description": "The quantum approximate optimization algorithm."
+          },
+          "VQE": {
+            "id": "1.3.3.2.1.2",
+            "name": "VQE",
+            "description": "The variational quantum eigensolver."
+          }
+        },
+        
+        "ADO": {
+          "id": "1.3.3.2.2",
+          "name": "Adiabatic Optimization",
+          "description": "Optimization using quantum adiabatic evolution."
+        },
+        
+        "QA": {
+          "id": "1.3.3.2.3",
+          "name": "Quantum Annealing",
+          "description": "Optimization using quantum annealing."
+        }
+      },
+      
+      "SRA": {
+        "id": "1.3.3.3",
+        "name": "Search Algorithms",
+        "description": "Quantum algorithms for search problems.",
+        
+        "GRV": {
+          "id": "1.3.3.3.1",
+          "name": "Grover",
+          "description": "Grover's quantum search algorithm."
+        },
+        
+        "AMP": {
+          "id": "1.3.3.3.2",
+          "name": "Amplitude Amplification",
+          "description": "Quantum amplitude amplification methods."
+        },
+        
+        "HSP": {
+          "id": "1.3.3.3.3",
+          "name": "Hidden Subgroup",
+          "description": "Algorithms for hidden subgroup problems."
+        }
+      },
+      
+      "SIM": {
+        "id": "1.3.3.4",
+        "name": "Simulation Algorithms",
+        "description": "Algorithms for quantum simulation.",
+        
+        "HS": {
+          "id": "1.3.3.4.1",
+          "name": "Hamiltonian Simulation",
+          "description": "Algorithms for simulating quantum systems."
+        },
+        
+        "QC": {
+          "id": "1.3.3.4.2",
+          "name": "Quantum Chemistry",
+          "description": "Algorithms for chemical system simulation."
+        },
+        
+        "MS": {
+          "id": "1.3.3.4.3",
+          "name": "Material Science",
+          "description": "Algorithms for materials simulation."
+        }
+      }
+    }
+  }
+},
+"QCOM": {
+    "id": "1.4",
+    "name": "Quantum Communication",
+    "description": "Systems and protocols for transmitting quantum information and using quantum effects for communication.",
+    
+    "NA": {
+      "id": "1.4.1",
+      "name": "Network Architecture",
+      "description": "Architectural components and layers of quantum communication networks.",
+      
+      "PL": {
+        "id": "1.4.1.1",
+        "name": "Physical Layer",
+        "description": "Physical infrastructure for quantum communication.",
+        
+        "FN": {
+          "id": "1.4.1.1.1",
+          "name": "Fiber Networks",
+          "description": "Optical fiber-based quantum communication systems.",
+          
+          "SFN": {
+            "id": "1.4.1.1.1.1",
+            "name": "Single-mode Fiber",
+            "description": "Networks using single-mode optical fibers."
+          },
+          "MFN": {
+            "id": "1.4.1.1.1.2",
+            "name": "Multi-mode Fiber",
+            "description": "Networks using multi-mode optical fibers."
+          },
+          "PCF": {
+            "id": "1.4.1.1.1.3",
+            "name": "Photonic Crystal Fiber",
+            "description": "Networks using specialized photonic crystal fibers."
+          }
+        },
+        
+        "FSL": {
+          "id": "1.4.1.1.2",
+          "name": "Free-space Links",
+          "description": "Free-space optical quantum communication.",
+          
+          "TER": {
+            "id": "1.4.1.1.2.1",
+            "name": "Terrestrial",
+            "description": "Ground-based free-space communication links."
+          },
+          "ATM": {
+            "id": "1.4.1.1.2.2",
+            "name": "Atmospheric",
+            "description": "Communication through the atmosphere."
+          },
+          "UAV": {
+            "id": "1.4.1.1.2.3",
+            "name": "UAV-based",
+            "description": "Communication using unmanned aerial vehicles."
+          }
+        },
+        
+        "SAT": {
+          "id": "1.4.1.1.3",
+          "name": "Satellite Links",
+          "description": "Satellite-based quantum communication.",
+          
+          "LEO": {
+            "id": "1.4.1.1.3.1",
+            "name": "Low Earth Orbit",
+            "description": "Communication using LEO satellites."
+          },
+          "MEO": {
+            "id": "1.4.1.1.3.2",
+            "name": "Medium Earth Orbit",
+            "description": "Communication using MEO satellites."
+          },
+          "GEO": {
+            "id": "1.4.1.1.3.3",
+            "name": "Geostationary Orbit",
+            "description": "Communication using GEO satellites."
+          }
+        }
+      },
+      
+      "PRL": {
+        "id": "1.4.1.2",
+        "name": "Protocol Layer",
+        "description": "Communication protocols for quantum networks.",
+        
+        "NP": {
+          "id": "1.4.1.2.1",
+          "name": "Network Protocols",
+          "description": "Protocols for quantum network operation.",
+          
+          "RT": {
+            "id": "1.4.1.2.1.1",
+            "name": "Routing",
+            "description": "Protocols for routing quantum information."
+          },
+          "FW": {
+            "id": "1.4.1.2.1.2",
+            "name": "Forwarding",
+            "description": "Protocols for forwarding quantum states."
+          },
+          "HS": {
+            "id": "1.4.1.2.1.3",
+            "name": "Handshaking",
+            "description": "Protocols for establishing quantum connections."
+          }
+        },
+        
+        "EM": {
+          "id": "1.4.1.2.2",
+          "name": "Error Management",
+          "description": "Error handling in quantum networks.",
+          
+          "EC": {
+            "id": "1.4.1.2.2.1",
+            "name": "Error Correction",
+            "description": "Network-level quantum error correction."
+          },
+          "EP": {
+            "id": "1.4.1.2.2.2",
+            "name": "Error Prevention",
+            "description": "Proactive error prevention strategies."
+          },
+          "ER": {
+            "id": "1.4.1.2.2.3",
+            "name": "Error Recovery",
+            "description": "Recovery from communication errors."
+          }
+        }
+      },
+      
+      "APL": {
+        "id": "1.4.1.3",
+        "name": "Application Layer",
+        "description": "Application-level services in quantum networks.",
+        
+        "ES": {
+          "id": "1.4.1.3.1",
+          "name": "End-user Services",
+          "description": "Services for end users of quantum networks.",
+          
+          "QKD": {
+            "id": "1.4.1.3.1.1",
+            "name": "QKD Services",
+            "description": "Quantum key distribution services."
+          },
+          "QST": {
+            "id": "1.4.1.3.1.2",
+            "name": "Quantum State Transfer",
+            "description": "Services for quantum state transfer."
+          },
+          "QEC": {
+            "id": "1.4.1.3.1.3",
+            "name": "Quantum Entanglement Creation",
+            "description": "Services for generating shared entanglement."
+          }
+        },
+        
+        "NM": {
+          "id": "1.4.1.3.2",
+          "name": "Network Management",
+          "description": "Management of quantum networks.",
+          
+          "RM": {
+            "id": "1.4.1.3.2.1",
+            "name": "Resource Management",
+            "description": "Management of network resources."
+          },
+          "QM": {
+            "id": "1.4.1.3.2.2",
+            "name": "Quality Management",
+            "description": "Management of service quality."
+          },
+          "SM": {
+            "id": "1.4.1.3.2.3",
+            "name": "Security Management",
+            "description": "Management of network security."
+          }
+        }
+      }
+    },
+    
+    "SS": {
+      "id": "1.4.2",
+      "name": "Security Systems",
+      "description": "Security-related systems and protocols.",
+      
+      "KD": {
+        "id": "1.4.2.1",
+        "name": "Key Distribution",
+        "description": "Quantum key distribution systems.",
+        
+        "DV": {
+          "id": "1.4.2.1.1",
+          "name": "Discrete Variable",
+          "description": "QKD using discrete quantum states.",
+          
+          "BB84": {
+            "id": "1.4.2.1.1.1",
+            "name": "BB84 Protocol",
+            "description": "The original QKD protocol."
+          },
+          "E91": {
+            "id": "1.4.2.1.1.2",
+            "name": "E91 Protocol",
+            "description": "Entanglement-based QKD protocol."
+          }
+        },
+        
+        "CV": {
+          "id": "1.4.2.1.2",
+          "name": "Continuous Variable",
+          "description": "QKD using continuous quantum variables.",
+          
+          "GG02": {
+            "id": "1.4.2.1.2.1",
+            "name": "GG02 Protocol",
+            "description": "Gaussian-modulated coherent state protocol."
+          }
+        },
+        
+        "TF": {
+          "id": "1.4.2.1.3",
+          "name": "Twin Field",
+          "description": "Twin-field quantum key distribution.",
+          
+          "PM": {
+            "id": "1.4.2.1.3.1",
+            "name": "Phase Matching",
+            "description": "Phase-matching-based protocols."
+          }
+        },
+        
+        "DI": {
+          "id": "1.4.2.1.4",
+          "name": "Device Independent",
+          "description": "Device-independent QKD protocols."
+        }
+      },
+      
+      "PQ": {
+        "id": "1.4.2.2",
+        "name": "Post-quantum Systems",
+        "description": "Classical systems secure against quantum attacks.",
+        
+        "LB": {
+          "id": "1.4.2.2.1",
+          "name": "Lattice-based",
+          "description": "Cryptography based on lattice problems."
+        },
+        
+        "HB": {
+          "id": "1.4.2.2.2",
+          "name": "Hash-based",
+          "description": "Cryptography based on hash functions."
+        },
+        
+        "CB": {
+          "id": "1.4.2.2.3",
+          "name": "Code-based",
+          "description": "Cryptography based on error-correcting codes."
+        },
+        
+        "MV": {
+          "id": "1.4.2.2.4",
+          "name": "Multivariate",
+          "description": "Cryptography based on multivariate polynomials."
+        }
+      },
+      
+      "HS": {
+        "id": "1.4.2.3",
+        "name": "Hardware Security",
+        "description": "Hardware-based security systems.",
+        
+        "SM": {
+          "id": "1.4.2.3.1",
+          "name": "Security Modules",
+          "description": "Physical security modules.",
+          
+          "HSM": {
+            "id": "1.4.2.3.1.1",
+            "name": "Hardware Security Modules",
+            "description": "Dedicated security hardware."
+          },
+          "TPM": {
+            "id": "1.4.2.3.1.2",
+            "name": "Trusted Platform Modules",
+            "description": "Standardized security chips."
+          }
+        },
+        
+        "TN": {
+          "id": "1.4.2.3.2",
+          "name": "Trusted Nodes",
+          "description": "Secure network nodes.",
+          
+          "QR": {
+            "id": "1.4.2.3.2.1",
+            "name": "Quantum Repeaters",
+            "description": "Nodes for extending quantum communication distance."
+          },
+          "QM": {
+            "id": "1.4.2.3.2.2",
+            "name": "Quantum Memories",
+            "description": "Nodes for storing quantum states."
+          }
+        },
+        
+        "RNG": {
+          "id": "1.4.2.3.3",
+          "name": "Random Number Generation",
+          "description": "Hardware random number generators.",
+          
+          "QRNG": {
+            "id": "1.4.2.3.3.1",
+            "name": "Quantum RNG",
+            "description": "Quantum random number generators."
+          },
+          "TRNG": {
+            "id": "1.4.2.3.3.2",
+            "name": "True RNG",
+            "description": "Physical random number generators."
+          }
+        }
+      }
+    },
+    
+    "IT": {
+      "id": "1.4.3",
+      "name": "Information Transfer",
+      "description": "Methods for transferring quantum information.",
+      
+      "QT": {
+        "id": "1.4.3.1",
+        "name": "Quantum Teleportation",
+        "description": "Teleportation of quantum states.",
+        
+        "EB": {
+          "id": "1.4.3.1.1",
+          "name": "Entanglement-based",
+          "description": "Teleportation using entangled states."
+        },
+        
+        "ST": {
+          "id": "1.4.3.1.2",
+          "name": "State Transmission",
+          "description": "Direct transmission of quantum states."
+        },
+        
+        "DC": {
+          "id": "1.4.3.1.3",
+          "name": "Dense Coding",
+          "description": "Enhanced classical communication using quantum resources."
+        }
+      },
+      
+      "ST": {
+        "id": "1.4.3.2",
+        "name": "State Transfer",
+        "description": "Methods for transferring quantum states.",
+        
+        "CP": {
+          "id": "1.4.3.2.1",
+          "name": "Channel Protocols",
+          "description": "Protocols for state transfer channels."
+        },
+        
+        "SP": {
+          "id": "1.4.3.2.2",
+          "name": "State Preservation",
+          "description": "Methods for preserving states during transfer."
+        }
+      },
+      
+      "OC": {
+        "id": "1.4.3.3",
+        "name": "Optical Communication",
+        "description": "Quantum optical communication methods.",
+        
+        "SP": {
+          "id": "1.4.3.3.1",
+          "name": "Single Photon",
+          "description": "Communication using single photons."
+        },
+        
+        "SS": {
+          "id": "1.4.3.3.2",
+          "name": "Squeezed States",
+          "description": "Communication using squeezed light states."
+        },
+        
+        "CV": {
+          "id": "1.4.3.3.3",
+          "name": "Continuous Variable",
+          "description": "Communication using continuous variables."
+        }
+      }
+    }
+  },
+  "QS": {
+    "id": "1.5",
+    "name": "Quantum Sensing",
+    "description": "Use of quantum systems and effects for enhanced measurement and detection.",
+    
+    "TF": {
+      "id": "1.5.1",
+      "name": "Time & Frequency",
+      "description": "Quantum systems for precise time and frequency measurements.",
+      
+      "AC": {
+        "id": "1.5.1.1",
+        "name": "Atomic Clocks",
+        "description": "High-precision time measurement using atomic transitions.",
+        
+        "OL": {
+          "id": "1.5.1.1.1",
+          "name": "Optical Lattice",
+          "description": "Clocks using atoms trapped in optical lattices.",
+          
+          "SR": {
+            "id": "1.5.1.1.1.1",
+            "name": "Strontium",
+            "description": "Optical lattice clocks using strontium atoms."
+          },
+          "YB": {
+            "id": "1.5.1.1.1.2",
+            "name": "Ytterbium",
+            "description": "Optical lattice clocks using ytterbium atoms."
+          }
+        },
+        
+        "IB": {
+          "id": "1.5.1.1.2",
+          "name": "Ion-based",
+          "description": "Clocks using trapped ions.",
+          
+          "AL": {
+            "id": "1.5.1.1.2.1",
+            "name": "Aluminum",
+            "description": "Ion clocks using aluminum ions."
+          },
+          "HG": {
+            "id": "1.5.1.1.2.2",
+            "name": "Mercury",
+            "description": "Ion clocks using mercury ions."
+          }
+        },
+        
+        "FN": {
+          "id": "1.5.1.1.3",
+          "name": "Fountain",
+          "description": "Atomic fountain clocks.",
+          
+          "CS": {
+            "id": "1.5.1.1.3.1",
+            "name": "Cesium",
+            "description": "Fountain clocks using cesium atoms."
+          },
+          "RB": {
+            "id": "1.5.1.1.3.2",
+            "name": "Rubidium",
+            "description": "Fountain clocks using rubidium atoms."
+          }
+        }
+      },
+      
+      "FS": {
+        "id": "1.5.1.2",
+        "name": "Frequency Standards",
+        "description": "Quantum frequency reference systems.",
+        
+        "MW": {
+          "id": "1.5.1.2.1",
+          "name": "Microwave",
+          "description": "Microwave frequency standards.",
+          
+          "MAS": {
+            "id": "1.5.1.2.1.1",
+            "name": "Masers",
+            "description": "Microwave amplification by stimulated emission."
+          },
+          "HFS": {
+            "id": "1.5.1.2.1.2",
+            "name": "Hyperfine Standards",
+            "description": "Standards based on hyperfine transitions."
+          }
+        },
+        
+        "OPT": {
+          "id": "1.5.1.2.2",
+          "name": "Optical",
+          "description": "Optical frequency standards.",
+          
+          "OFC": {
+            "id": "1.5.1.2.2.1",
+            "name": "Optical Frequency Combs",
+            "description": "Precision optical frequency references."
+          },
+          "CW": {
+            "id": "1.5.1.2.2.2",
+            "name": "Continuous Wave",
+            "description": "Continuous wave laser standards."
+          }
+        }
+      }
+    },
+    
+    "FS": {
+      "id": "1.5.2",
+      "name": "Field Sensing",
+      "description": "Quantum sensors for measuring fields and forces.",
+      
+      "MAG": {
+        "id": "1.5.2.1",
+        "name": "Magnetometers",
+        "description": "Quantum magnetic field sensors.",
+        
+        "SQ": {
+          "id": "1.5.2.1.1",
+          "name": "SQUID",
+          "description": "Superconducting quantum interference devices.",
+          
+          "DC": {
+            "id": "1.5.2.1.1.1",
+            "name": "DC SQUID",
+            "description": "Direct current SQUID magnetometers."
+          },
+          "RF": {
+            "id": "1.5.2.1.1.2",
+            "name": "RF SQUID",
+            "description": "Radio frequency SQUID magnetometers."
+          }
+        },
+        
+        "AT": {
+          "id": "1.5.2.1.2",
+          "name": "Atomic",
+          "description": "Atomic magnetometers.",
+          
+          "OPM": {
+            "id": "1.5.2.1.2.1",
+            "name": "Optically Pumped",
+            "description": "Optically pumped atomic magnetometers."
+          },
+          "SPM": {
+            "id": "1.5.2.1.2.2",
+            "name": "Spin Exchange",
+            "description": "Spin exchange relaxation-free magnetometers."
+          }
+        },
+        
+        "NV": {
+          "id": "1.5.2.1.3",
+          "name": "NV-center",
+          "description": "Diamond NV-center magnetometers.",
+          
+          "ENS": {
+            "id": "1.5.2.1.3.1",
+            "name": "Ensemble",
+            "description": "Sensors using NV-center ensembles."
+          },
+          "SNG": {
+            "id": "1.5.2.1.3.2",
+            "name": "Single Center",
+            "description": "Single NV-center sensors."
+          }
+        }
+      },
+      
+      "EF": {
+        "id": "1.5.2.2",
+        "name": "Electric Field",
+        "description": "Quantum electric field sensors.",
+        
+        "SE": {
+          "id": "1.5.2.2.1",
+          "name": "Single Electron",
+          "description": "Single electron transistor sensors.",
+          
+          "SET": {
+            "id": "1.5.2.2.1.1",
+            "name": "SET Sensors",
+            "description": "Single electron transistor field sensors."
+          }
+        },
+        
+        "RA": {
+          "id": "1.5.2.2.2",
+          "name": "Rydberg Atoms",
+          "description": "Rydberg atom field sensors.",
+          
+          "EIT": {
+            "id": "1.5.2.2.2.1",
+            "name": "EIT-based",
+            "description": "Electromagnetically induced transparency sensors."
+          },
+          "AUT": {
+            "id": "1.5.2.2.2.2",
+            "name": "Autler-Townes",
+            "description": "Autler-Townes splitting based sensors."
+          }
+        }
+      },
+      
+      "GR": {
+        "id": "1.5.2.3",
+        "name": "Gravity",
+        "description": "Quantum gravity sensors.",
+        
+        "AI": {
+          "id": "1.5.2.3.1",
+          "name": "Atom Interferometry",
+          "description": "Gravity sensing using atom interferometers.",
+          
+          "FT": {
+            "id": "1.5.2.3.1.1",
+            "name": "Fountain Type",
+            "description": "Atomic fountain gravimeters."
+          },
+          "GG": {
+            "id": "1.5.2.3.1.2",
+            "name": "Gradiometers",
+            "description": "Gravity gradient sensors."
+          }
+        }
+      }
+    },
+    
+    "IS": {
+      "id": "1.5.3",
+      "name": "Imaging Systems",
+      "description": "Quantum-enhanced imaging technologies.",
+      
+      "GI": {
+        "id": "1.5.3.1",
+        "name": "Ghost Imaging",
+        "description": "Correlated photon imaging techniques.",
+        
+        "CI": {
+          "id": "1.5.3.1.1",
+          "name": "Classical Illumination",
+          "description": "Ghost imaging with classical light."
+        },
+        
+        "QI": {
+          "id": "1.5.3.1.2",
+          "name": "Quantum Illumination",
+          "description": "Ghost imaging with quantum light."
+        }
+      },
+      
+      "QR": {
+        "id": "1.5.3.2",
+        "name": "Quantum Radar",
+        "description": "Quantum-enhanced radar systems.",
+        
+        "MI": {
+          "id": "1.5.3.2.1",
+          "name": "Microwave Illumination",
+          "description": "Quantum radar using microwave photons."
+        },
+        
+        "OI": {
+          "id": "1.5.3.2.2",
+          "name": "Optical Illumination",
+          "description": "Quantum radar using optical photons."
+        }
+      },
+      
+      "QM": {
+        "id": "1.5.3.3",
+        "name": "Quantum Microscopy",
+        "description": "Quantum-enhanced microscopy techniques.",
+        
+        "SRM": {
+          "id": "1.5.3.3.1",
+          "name": "Super-resolution",
+          "description": "Beyond-diffraction-limit microscopy.",
+          
+          "SQD": {
+            "id": "1.5.3.3.1.1",
+            "name": "Squeezed Light",
+            "description": "Microscopy using squeezed light."
+          },
+          "ENT": {
+            "id": "1.5.3.3.1.2",
+            "name": "Entangled Photons",
+            "description": "Microscopy using entangled photons."
+          }
+        }
+      },
+      
+      "QL": {
+        "id": "1.5.3.4",
+        "name": "Quantum Lidar",
+        "description": "Quantum-enhanced light detection and ranging.",
+        
+        "SP": {
+          "id": "1.5.3.4.1",
+          "name": "Single Photon",
+          "description": "Lidar using single photon detection."
+        },
+        
+        "EP": {
+          "id": "1.5.3.4.2",
+          "name": "Entangled Photon",
+          "description": "Lidar using entangled photon pairs."
+        }
+      }
+    }
+  },
+"TF": {
+    "id": "1.6",
+    "name": "Theoretical Foundations",
+    "description": "Fundamental theoretical principles and frameworks underlying quantum technologies.",
+    
+    "IT": {
+      "id": "1.6.1",
+      "name": "Information Theory",
+      "description": "Theoretical framework for quantum information and computation.",
+      
+      "QC": {
+        "id": "1.6.1.1",
+        "name": "Quantum Channels",
+        "description": "Theory of quantum information transmission and noise.",
+        
+        "NC": {
+          "id": "1.6.1.1.1",
+          "name": "Noise Channels",
+          "description": "Models of quantum noise and decoherence.",
+          
+          "DP": {
+            "id": "1.6.1.1.1.1",
+            "name": "Depolarizing",
+            "description": "Depolarizing channel models."
+          },
+          "PH": {
+            "id": "1.6.1.1.1.2",
+            "name": "Phase Damping",
+            "description": "Phase damping channel models."
+          },
+          "AM": {
+            "id": "1.6.1.1.1.3",
+            "name": "Amplitude Damping",
+            "description": "Amplitude damping channel models."
+          }
+        }
+      },
+      
+      "ET": {
+        "id": "1.6.1.2",
+        "name": "Error Theory",
+        "description": "Theory of quantum errors and correction.",
+        
+        "EC": {
+          "id": "1.6.1.2.1",
+          "name": "Error Characterization",
+          "description": "Methods for characterizing quantum errors.",
+          
+          "ST": {
+            "id": "1.6.1.2.1.1",
+            "name": "Stochastic Errors",
+            "description": "Random error processes."
+          },
+          "CO": {
+            "id": "1.6.1.2.1.2",
+            "name": "Coherent Errors",
+            "description": "Systematic error processes."
+          }
+        },
+        
+        "FT": {
+          "id": "1.6.1.2.2",
+          "name": "Fault Tolerance",
+          "description": "Theoretical foundations of fault tolerance.",
+          
+          "TH": {
+            "id": "1.6.1.2.2.1",
+            "name": "Threshold Theorems",
+            "description": "Fundamental theorems of fault tolerance."
+          },
+          "SC": {
+            "id": "1.6.1.2.2.2",
+            "name": "Scaling Laws",
+            "description": "Resource scaling in fault-tolerant systems."
+          }
+        }
+      },
+      
+      "RT": {
+        "id": "1.6.1.3",
+        "name": "Resource Theory",
+        "description": "Theoretical framework for quantum resources.",
+        
+        "EN": {
+          "id": "1.6.1.3.1",
+          "name": "Entanglement",
+          "description": "Resource theory of entanglement.",
+          
+          "ME": {
+            "id": "1.6.1.3.1.1",
+            "name": "Measures",
+            "description": "Entanglement quantification methods."
+          },
+          "MO": {
+            "id": "1.6.1.3.1.2",
+            "name": "Monotones",
+            "description": "Entanglement monotones theory."
+          }
+        },
+        
+        "CO": {
+          "id": "1.6.1.3.2",
+          "name": "Coherence",
+          "description": "Resource theory of quantum coherence.",
+          
+          "QU": {
+            "id": "1.6.1.3.2.1",
+            "name": "Quantification",
+            "description": "Methods for quantifying coherence."
+          },
+          "OP": {
+            "id": "1.6.1.3.2.2",
+            "name": "Operations",
+            "description": "Theory of coherence-preserving operations."
+          }
+        }
+      },
+      
+      "HS": {
+        "id": "1.6.1.4",
+        "name": "Hilbert Space",
+        "description": "Mathematical framework of quantum mechanics.",
+        
+        "OP": {
+          "id": "1.6.1.4.1",
+          "name": "Operators",
+          "description": "Theory of quantum operators.",
+          
+          "UN": {
+            "id": "1.6.1.4.1.1",
+            "name": "Unitary",
+            "description": "Unitary operator theory."
+          },
+          "HE": {
+            "id": "1.6.1.4.1.2",
+            "name": "Hermitian",
+            "description": "Hermitian operator theory."
+          }
+        },
+        
+        "ST": {
+          "id": "1.6.1.4.2",
+          "name": "States",
+          "description": "Theory of quantum states.",
+          
+          "PU": {
+            "id": "1.6.1.4.2.1",
+            "name": "Pure States",
+            "description": "Pure quantum state theory."
+          },
+          "MI": {
+            "id": "1.6.1.4.2.2",
+            "name": "Mixed States",
+            "description": "Mixed state and density matrix theory."
+          }
+        }
+      }
+    },
+    
+    "QE": {
+      "id": "1.6.2",
+      "name": "Quantum Effects",
+      "description": "Fundamental quantum mechanical phenomena.",
+      
+      "EN": {
+        "id": "1.6.2.1",
+        "name": "Entanglement",
+        "description": "Quantum correlations and entanglement phenomena.",
+        
+        "GE": {
+          "id": "1.6.2.1.1",
+          "name": "Generation",
+          "description": "Methods of entanglement creation.",
+          
+          "SP": {
+            "id": "1.6.2.1.1.1",
+            "name": "Spontaneous",
+            "description": "Spontaneous entanglement generation."
+          },
+          "EN": {
+            "id": "1.6.2.1.1.2",
+            "name": "Engineered",
+            "description": "Controlled entanglement generation."
+          }
+        },
+        
+        "MA": {
+          "id": "1.6.2.1.2",
+          "name": "Manipulation",
+          "description": "Entanglement control and manipulation.",
+          
+          "DI": {
+            "id": "1.6.2.1.2.1",
+            "name": "Distillation",
+            "description": "Entanglement purification methods."
+          },
+          "SW": {
+            "id": "1.6.2.1.2.2",
+            "name": "Swapping",
+            "description": "Entanglement swapping protocols."
+          }
+        }
+      },
+      
+      "SU": {
+        "id": "1.6.2.2",
+        "name": "Superposition",
+        "description": "Quantum superposition principles.",
+        
+        "CS": {
+          "id": "1.6.2.2.1",
+          "name": "Coherent States",
+          "description": "Theory of coherent quantum states."
+        },
+        
+        "SS": {
+          "id": "1.6.2.2.2",
+          "name": "Squeezed States",
+          "description": "Theory of squeezed quantum states."
+        }
+      },
+      
+      "TU": {
+        "id": "1.6.2.3",
+        "name": "Tunneling",
+        "description": "Quantum tunneling phenomena.",
+        
+        "CT": {
+          "id": "1.6.2.3.1",
+          "name": "Coherent Tunneling",
+          "description": "Coherent quantum tunneling processes."
+        },
+        
+        "IT": {
+          "id": "1.6.2.3.2",
+          "name": "Incoherent Tunneling",
+          "description": "Incoherent tunneling processes."
+        }
+      }
+    },
+    
+    "MT": {
+      "id": "1.6.3",
+      "name": "Measurement Theory",
+      "description": "Theory of quantum measurements.",
+      
+      "WM": {
+        "id": "1.6.3.1",
+        "name": "Weak Measurement",
+        "description": "Theory of weak quantum measurements.",
+        
+        "PC": {
+          "id": "1.6.3.1.1",
+          "name": "Post-selection",
+          "description": "Post-selected weak measurements."
+        },
+        
+        "CF": {
+          "id": "1.6.3.1.2",
+          "name": "Continuous Feedback",
+          "description": "Continuous weak measurement and feedback."
+        }
+      },
+      
+      "PM": {
+        "id": "1.6.3.2",
+        "name": "Projective Measurement",
+        "description": "Theory of projective quantum measurements.",
+        
+        "VM": {
+          "id": "1.6.3.2.1",
+          "name": "von Neumann",
+          "description": "von Neumann measurement theory."
+        },
+        
+        "PO": {
+          "id": "1.6.3.2.2",
+          "name": "POVM",
+          "description": "Positive operator-valued measures."
+        }
+      }
+    },
+    
+    "PM": {
+      "id": "1.6.4",
+      "name": "Performance Metrics",
+      "description": "Theoretical measures of quantum system performance.",
+      
+      "FI": {
+        "id": "1.6.4.1",
+        "name": "Fidelity",
+        "description": "Measures of quantum state and process fidelity.",
+        
+        "SF": {
+          "id": "1.6.4.1.1",
+          "name": "State Fidelity",
+          "description": "Metrics for quantum state fidelity."
+        },
+        
+        "PF": {
+          "id": "1.6.4.1.2",
+          "name": "Process Fidelity",
+          "description": "Metrics for quantum process fidelity."
+        }
+      },
+      
+      "ER": {
+        "id": "1.6.4.2",
+        "name": "Error Rates",
+        "description": "Quantification of quantum errors.",
+        
+        "BE": {
+          "id": "1.6.4.2.1",
+          "name": "Bit Error",
+          "description": "Bit flip error metrics."
+        },
+        
+        "PE": {
+          "id": "1.6.4.2.2",
+          "name": "Phase Error",
+          "description": "Phase error metrics."
+        }
+      }
+    }
+  }
+}
+
+
+    

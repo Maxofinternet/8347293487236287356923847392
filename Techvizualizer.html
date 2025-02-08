@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quantum Technology Taxonomy Flowchart</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    /* The tree container */
+    #tree {
+      list-style-type: none;
+      padding-left: 20px;
+    }
+    #tree li {
+      margin: 5px 0;
+      position: relative;
+    }
+    /* Style for each node (clickable element) */
+    #tree li span {
+      padding: 5px 8px;
+      border: 1px solid #999;
+      background-color: #f0f0f0;
+      cursor: pointer;
+      display: inline-block;
+      border-radius: 4px;
+    }
+    #tree li span:hover {
+      background-color: #e0e0e0;
+    }
+    /* The details panel */
+    #node-details {
+      border: 1px solid #999;
+      padding: 10px;
+      margin-top: 20px;
+      border-radius: 4px;
+      background-color: #fafafa;
+    }
+  </style>
+</head>
+<body>
+  <h1>Quantum Technology Taxonomy Flowchart</h1>
+  
+  <!-- The container for the tree -->
+  <ul id="tree"></ul>
+  
+  <!-- A details panel to show the description of the selected node -->
+  <div id="node-details">
+    <h2>Node Details</h2>
+    <p>Select a node from the tree to see its details here.</p>
+  </div>
+  
+  <script>
+    /**
+     * Displays details about a node in the details panel.
+     * @param {Object} node - The node object containing id, name, description.
+     */
+    function showNodeDetails(node) {
+      const detailsDiv = document.getElementById('node-details');
+      detailsDiv.innerHTML =
+        '<h2>' + node.name + '</h2>' +
+        '<p><strong>ID:</strong> ' + node.id + '</p>' +
+        '<p><strong>Description:</strong> ' + node.description + '</p>';
+    }
+    
+    /**
+     * Recursively creates a tree element for a given node.
+     * @param {string} key - The key (code) of the node.
+     * @param {Object} node - The node object.
+     * @returns {HTMLElement} The <li> element representing the node.
+     */
+    function createNodeElement(key, node) {
+      const li = document.createElement('li');
+      
+      // Create a span to display the node’s name
+      const span = document.createElement('span');
+      span.textContent = node.name;
+      // Optionally, set a tooltip with the description
+      span.title = node.description;
+      
+      // When the node is clicked, show details and toggle children
+      span.addEventListener('click', function(e) {
+        e.stopPropagation(); // Prevent click events from bubbling upward
+        showNodeDetails(node);
+        // Toggle the display of any child list (if it exists)
+        const childUl = li.querySelector('ul');
+        if (childUl) {
+          childUl.style.display = childUl.style.display === 'none' ? 'block' : 'none';
+        }
+      });
+      
+      li.appendChild(span);
+      
+      // Find “child” keys. We assume that every property except id, name, and description is a child node.
+      const childKeys = Object.keys(node).filter(function(k) {
+        return k !== 'id' && k !== 'name' && k !== 'description';
+      });
+      
+      if (childKeys.length > 0) {
+        const ul = document.createElement('ul');
+        // Start with children hidden
+        ul.style.display = 'none';
+        childKeys.forEach(function(childKey) {
+          const childNode = node[childKey];
+          // Only process if it is an object
+          if (typeof childNode === 'object') {
+            const childLi = createNodeElement(childKey, childNode);
+            ul.appendChild(childLi);
+          }
+        });
+        li.appendChild(ul);
+      }
+      
+      return li;
+    }
+    
+    /**
+     * Builds the tree from the provided data.
+     * @param {Object} data - The JSON object representing the taxonomy.
+     */
+    function buildTree(data) {
+      const treeContainer = document.getElementById('tree');
+      // Each property at the root of the JSON becomes a top-level node.
+      Object.keys(data).forEach(function(key) {
+        const node = data[key];
+        const li = createNodeElement(key, node);
+        treeContainer.appendChild(li);
+      });
+    }
+    
+    // Load the JSON file (taxonomy.json must be in the same directory)
+    fetch('https://drive.google.com/uc?export=download&id=1G0uovnR2r_dYPNn326g3Ce3ZynC7mlG4', { mode: 'no-cors' })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("HTTP error " + response.status);
+        }
+        return response.json();
+      })
+      .then(data => {
+        buildTree(data);
+      })
+      .catch(error => {
+        console.error('Error loading JSON file:', error);
+        document.getElementById('tree').innerHTML =
+          '<li>Error loading taxonomy data. Please check the console for details.</li>';
+      });
+  </script>
+</body>
+</html>
