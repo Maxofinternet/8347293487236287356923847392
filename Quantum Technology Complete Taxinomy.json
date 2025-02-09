@@ -680,7 +680,7 @@
       }
     }
   }
-},
+
 "QCOM": {
     "id": "1.4",
     "name": "Quantum Communication",
@@ -1721,5 +1721,5 @@
   }
 }
 
-
+},
     
